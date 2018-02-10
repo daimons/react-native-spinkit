@@ -6,10 +6,11 @@ repositories {
         url "https://jitpack.io"
     }
 }
-
+        
 buildscript {
     repositories {
         mavenCentral()
+        jcenter()
         maven {
             url "https://jitpack.io"
         }
